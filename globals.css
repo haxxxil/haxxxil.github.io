@@ -1,0 +1,31 @@
+.light_mode 
+{
+    color: rgb(67, 67, 67);
+    background-color: rgb(248, 248, 248);
+}
+
+.light_mode body
+{
+    background-color: rgb(248, 248, 248);
+}
+
+.light_mode div
+{
+    background-color: rgb(248, 248, 248);
+}
+
+.dark_mode
+{
+    color:rgb(240, 240, 240);
+    background-color: rgb(69, 69, 69);
+}
+
+.dark_mode body
+{
+    background-color: rgb(69, 69, 69);
+}
+
+.dark_mode div
+{
+    background-color: rgb(69, 69, 69);
+}
