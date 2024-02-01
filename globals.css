@@ -30,15 +30,26 @@ body.light_mode
     background-color: rgb(173, 173, 238);
 }
 
-.light_mode .navbar > div
+.light_mode .navbar > a
 {
+    text-decoration: none;
+}
+
+.light_mode .navbar > a > div
+{
+    text-decoration: none;
     text-align: center;
     min-width: 200px;
     background-color: rgb(173, 173, 238);
-    color: rgb(96, 96, 96);
+    color: rgb(55, 55, 55);
     font-size: 25px;
     margin: 0px;
     line-height: 50px;
+}
+
+.light_mode .navbar > a:hover > div
+{
+    background-color: rgb(136, 136, 210);
 }
 
 .dark_mode
@@ -62,16 +73,28 @@ body.dark_mode
     flex-wrap: wrap;
     width: 100%;
     margin-left: 0;
-    background-color: rgb(77, 50, 159);
+    background-color: rgb(114, 79, 217);
 }
 
-.dark_mode .navbar > div
+
+.dark_mode .navbar > a
 {
+    text-decoration: none;
+}
+
+.dark_mode .navbar > a > div
+{
+    text-decoration: none;
     text-align: center;
     min-width: 200px;
-    background-color: rgb(77, 50, 159);
+    background-color: rgb(114, 79, 217);
     color: rgb(243, 243, 243);
     font-size: 25px;
     margin: 0px;
     line-height: 50px;
+}
+
+.dark_mode .navbar > a:hover > div
+{
+    background-color: rgb(87, 60, 167);
 }
