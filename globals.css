@@ -130,10 +130,12 @@ body.dark_mode
     .light_mode .navbar
     {
         flex-direction: column;
+        justify-content: center;
     }
 
     .dark_mode .navbar
     {
         flex-direction: column;
+        justify-content: center;
     }
 }
