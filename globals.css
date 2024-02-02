@@ -139,3 +139,20 @@ body.dark_mode
         justify-content: center;
     }
 }
+
+div.main_content 
+{
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+}
+
+.main_content > h1
+{
+    font-size: 60px;
+}
+
+.main_content > p
+{
+    font-size: 24px;
+}
