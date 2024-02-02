@@ -52,6 +52,19 @@ body.light_mode
     background-color: rgb(136, 136, 210);
 }
 
+.light_mode .navbar > img
+{
+    align-self: flex-end;
+    float:right; 
+    height: 50px;
+    background-color: rgb(173, 173, 238);
+}
+
+.light_mode .navbar > img:hover
+{
+    background-color: rgb(136, 136, 210);
+}
+
 .dark_mode
 {
     color:rgb(240, 240, 240);
@@ -95,6 +108,19 @@ body.dark_mode
 }
 
 .dark_mode .navbar > a:hover > div
+{
+    background-color: rgb(87, 60, 167);
+}
+
+.dark_mode .navbar > img
+{
+    align-self: flex-end;
+    float:right; 
+    height: 50px;
+    background-color: rgb(114, 79, 217);
+}
+
+.dark_mode .navbar > img:hover
 {
     background-color: rgb(87, 60, 167);
 }
