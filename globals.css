@@ -124,3 +124,16 @@ body.dark_mode
 {
     background-color: rgb(87, 60, 167);
 }
+
+@media (max-width:1100 px) 
+{
+    .light_mode .navbar
+    {
+        flex-direction: column;
+    }
+
+    .dark_mode .navbar
+    {
+        flex-direction: column;
+    }
+}
