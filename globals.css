@@ -125,7 +125,7 @@ body.dark_mode
     background-color: rgb(87, 60, 167);
 }
 
-@media (max-width:1100 px) 
+@media (max-width:1100px) 
 {
     .light_mode .navbar
     {
