@@ -131,12 +131,14 @@ body.dark_mode
     {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .dark_mode .navbar
     {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 }
 
