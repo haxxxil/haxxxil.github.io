@@ -54,9 +54,9 @@ body.light_mode
 
 .light_mode .navbar > img
 {
-    align-self: flex-end;
-    float:right; 
     height: 50px;
+    max-width: 50px;
+    display: block;
     background-color: rgb(173, 173, 238);
 }
 
@@ -115,8 +115,9 @@ body.dark_mode
 .dark_mode .navbar > img
 {
     height: 50px;
-    background-color: rgb(114, 79, 217);
+    max-width: 50px;
     display: block;
+    background-color: rgb(114, 79, 217);
 }
 
 .dark_mode .navbar > img:hover
