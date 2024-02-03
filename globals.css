@@ -114,10 +114,9 @@ body.dark_mode
 
 .dark_mode .navbar > img
 {
-    align-self: flex-end;
-    float:right; 
     height: 50px;
     background-color: rgb(114, 79, 217);
+    display: block;
 }
 
 .dark_mode .navbar > img:hover
@@ -149,10 +148,19 @@ div.main_content
 
 .main_content > h1
 {
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .main_content > p
 {
     font-size: 24px;
+}
+
+.main_content > img
+{
+    width: 35%;
+    min-width: 300px;  
+    padding: 5px; 
+    margin: auto;
+    display: block;
 }
