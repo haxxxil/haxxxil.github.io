@@ -147,6 +147,7 @@ div.main_content
     max-width: 900px;
     padding: 20px;
     margin: auto;
+    font-size: 24px;
 }
 
 .main_content > h1
@@ -154,10 +155,6 @@ div.main_content
     font-size: 55px;
 }
 
-.main_content > p
-{
-    font-size: 24px;
-}
 
 .main_content > img
 {
