@@ -20,6 +20,26 @@ body.light_mode
     margin: 0px;
 }
 
+.light_mode a
+{
+    color: rgb(96, 96, 96);
+}
+
+.light_mode a:visited
+{
+    color: rgb(96, 96, 96);
+}
+
+.light_mode a:hover
+{
+    color: rgb(96, 96, 96);
+}
+
+.light_mode a:active
+{
+    color: rgb(96, 96, 96);
+}
+
 .light_mode .navbar
 {
     display: flex;
@@ -79,6 +99,26 @@ body.dark_mode
     margin: 0px;
 }
 
+.dark_mode a
+{
+    color:rgb(240, 240, 240);
+}
+
+.dark_mode a:visited
+{
+    color:rgb(240, 240, 240);
+}
+
+.dark_mode a:hover
+{
+    color:rgb(240, 240, 240);
+}
+
+.dark_mode a:active
+{
+    color:rgb(240, 240, 240);
+}
+
 .dark_mode .navbar
 {
     display: flex;
@@ -88,7 +128,6 @@ body.dark_mode
     margin-left: 0;
     background-color: rgb(114, 79, 217);
 }
-
 
 .dark_mode .navbar > a
 {
