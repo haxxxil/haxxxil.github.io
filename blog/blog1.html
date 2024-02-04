@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/globals.css">
+    <script src="/js/light_dark_mode.js"></script>
+    <title>Blog 1</title>
+</head>
+<body onload="check_like_dislike('blog1')">
+    <div class="navbar">
+        <img id="mode_switcher" onclick="switch_mode()">
+        <a href="/index.html">
+            <div>About Me</div>
+        </a>
+        <a href="/achievements.html">
+            <div>Achievements</div>
+        </a>
+        <a href="/education.html">
+            <div>Education</div>
+        </a>
+        <a href="/skills.html">
+            <div>Skills</div>
+        </a>
+        <a href="/blog/index.html">
+            <div>Blog</div>
+        </a>
+    </div>
+    <div class="main_content">
+        <h1>Blog 1</h1>
+        <p>
+            <p style="text-align: center;"><i>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</i></p>
+            <br>
+            <p style="text-align: center; font-size: 18px;">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+            <br>
+            <hr style="width: 70%;">
+            <p style="text-indent: 30px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec ultrices erat. Integer vitae efficitur sapien. Nulla venenatis, urna vestibulum blandit tristique, nulla mi imperdiet justo, eget congue est eros sed nulla. Suspendisse aliquam purus justo, vel fermentum ligula rutrum ut. Sed convallis mauris in pharetra sodales. Pellentesque laoreet purus orci, congue consequat magna consequat in. Etiam fermentum libero a tortor tempor, quis suscipit nulla pellentesque. Pellentesque purus erat, suscipit a odio non, laoreet pharetra sem. Suspendisse ante nulla, venenatis aliquet orci sit amet, molestie fringilla est.
+            </p>
+            <p style="text-indent: 30px;">
+                Etiam euismod risus nec odio ultrices, vel dignissim nisi rutrum. In non erat iaculis, dictum lacus vel, dignissim augue. Nulla euismod iaculis porttitor. Mauris efficitur fermentum ornare. Nunc dictum non nunc non commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum faucibus maximus porta. Praesent ut consectetur nunc, quis vulputate ex. Etiam nec dignissim ligula, eget feugiat ex. Praesent cursus, justo sed fringilla placerat, augue odio dictum ligula, eget fringilla ante nulla eget libero. Integer posuere leo id purus ultrices commodo. Aliquam porttitor, purus nec finibus dignissim, nisl augue luctus ipsum, et pellentesque lorem est non turpis. In ut velit placerat, mollis nibh quis, viverra arcu.
+            </p>
+            <p style="text-indent: 30px;">
+            Vestibulum erat lacus, consequat sed bibendum at, euismod et diam. Suspendisse efficitur fermentum risus, sed molestie purus elementum at. Suspendisse quis pretium purus, non fringilla nunc. Morbi efficitur eu enim ultricies egestas. Praesent dignissim tristique purus hendrerit auctor. Vivamus at suscipit sem. Phasellus nec ipsum varius, cursus dui nec, viverra magna. Vivamus elementum enim in metus congue sagittis. Sed dapibus dolor vel ex malesuada, eget congue augue lacinia. Nullam vel pretium ante.
+            </p>
+            <p style="text-indent: 30px;">
+                Nullam vitae ornare dui. Phasellus feugiat rhoncus velit vitae vehicula. In non augue tristique, lobortis magna at, vehicula magna. Aenean mauris neque, viverra in tristique ut, placerat quis orci. Integer malesuada sem diam. Vivamus feugiat neque sed augue dignissim gravida. Sed efficitur finibus augue, a varius felis molestie et. Aliquam at malesuada diam. Etiam ullamcorper, eros et rhoncus accumsan, dolor justo malesuada dolor, congue venenatis ex tellus ut mi.
+            </p>
+            <p style="text-indent: 30px;">
+                Curabitur malesuada sodales velit ut convallis. Integer dui mi, faucibus quis quam sed, ultrices egestas metus. Maecenas quam purus, facilisis luctus mi a, pharetra malesuada magna. Duis gravida nec nisl tincidunt vestibulum. Vestibulum sollicitudin elit vitae tellus rhoncus viverra. Duis vitae leo sodales, suscipit urna non, luctus turpis. Vivamus cursus vitae nibh a bibendum. Fusce pharetra porta lectus sodales sagittis. Cras ut neque viverra, viverra magna id, porttitor orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            </p>
+        </p>
+        <hr style="width: 90%;">
+        <div class="like_dislike">
+            <div id="blog1_like" class="like_dislike_button" onclick="like('blog1')">
+                <img src="/images/like.png" style="padding-left: 2px;padding-right: 2px; height: 100%;" style="padding-left: 5px; padding-right: 5px;">
+                <span style="padding-left: 5px; padding-right: 5px;" id="blog1_like_count">0</span>
+            </div>
+            <div id="blog1_dislike" class="like_dislike_button" onclick="dislike('blog1')">
+                <img src="/images/dislike.png" style="padding-left: 2px;padding-right: 2px; height: 100%; padding-left: 5px; padding-right: 5px;">
+                <span style="padding-left: 5px; padding-right: 5px;" id="blog1_dislike_count">0</span>
+            </div>
+        </div>
+        <hr style="width: 90%;">
+        <br>
+        <h2 style="font-size: 40px;">
+            Comments
+        </h2>
+        <hr style="width: 50%;">
+        <div class="comment">
+            <b>user1</b> commented:<br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue orci ut ante condimentum dapibus vitae nec neque. Nam hendrerit lectus nec pulvinar maximus. Quisque ac vehicula libero. Sed tincidunt.
+            </p>
+        </div>
+        <hr style="width: 50%;">
+        <div class="comment">
+            <b>user2</b> commented:<br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ante ac odio pretium dapibus. Suspendisse a felis et erat.
+            </p>
+        </div>
+        <hr style="width: 50%;">
+    </div>
+</body>

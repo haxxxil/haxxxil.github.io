@@ -250,3 +250,38 @@ div.contact
 {
     transform: scale(1.33);
 }
+
+div.like_dislike
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    padding: 20px;
+}
+
+div.like_dislike_button
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+
+.light_mode div.clicked.like_dislike_button
+{
+    border: 2px solid rgb(222, 72, 72);
+    background-color: rgba(255, 123, 123, 0.832);
+}
+
+.dark_mode div.clicked.like_dislike_button
+{
+    border: 2px solid rgb(54, 72, 203);
+    background-color: rgba(86, 67, 236, 0.694);
+}
+
