@@ -219,6 +219,7 @@ div.profile
     min-width: 300px;  
     padding: 5px; 
     margin: auto;
+    text-align: center;
 }
 
 div.contact
