@@ -167,3 +167,50 @@ div.main_content
     margin: auto;
     display: block;
 }
+
+img.profile_pic
+{
+    width: 100%; 
+    margin:auto; 
+    display: block; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+div.profile
+{
+    width: 35%;
+    min-width: 300px;  
+    padding: 5px; 
+    margin: auto;
+}
+
+div.contact
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact > div
+{
+    width: 12%;
+    max-height: 40px;
+    padding: 10px;
+}
+
+.social_icon
+{
+    width: 100%;
+    max-height: 40px;
+    display: block;
+}
+
+.social_icon:hover
+{
+    transform: scale(1.33);
+}
